@@ -1,0 +1,54 @@
+{
+  "artifacts": [],
+  "attack_configuration": {
+    "checksum": "5a32342180000958d6a560bf64934e8dca2facd37e292249074f924adf9e20e8",
+    "hash_alg": "sha256",
+    "path": "FILE_PATH"
+  },
+  "created_by": "USER_NAME",
+  "created_utc": "DATE_TIME",
+  "dataset": {
+    "hash": "8273783b423f550f9d2f5a5fdabad7989c5f9e5a51dd0c2ee471e93084f13dd2",
+    "hash_alg": "sha256",
+    "path": "FILE_PATH"
+  },
+  "environment": {
+    "git_commit": null,
+    "git_dirty": null,
+    "machine": "AMD64",
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26200",
+    "pip_freeze": null,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.9"
+  },
+  "experiment_id": "0fd28247-8f59-45c9-873f-7ba615fbcc69",
+  "host": "ECEN-D1GZKN3",
+  "lifecycle_events": [
+    {
+      "event_type": "revert",
+      "notes": "Reverted to clean-state after payload test",
+      "timestamp_utc": "DATE_TIME"
+    }
+  ],
+  "manifest_version": "1.1.0",
+  "network_isolation_status": "air-gapped",
+  "notes": null,
+  "one_click_reset_confirmation": true,
+  "privilege_level": "admin",
+  "random_seed": 12345,
+  "snapshot": {
+    "post_attack": "infected-state",
+    "pre_attack": "clean-state"
+  },
+  "snapshot_metadata": null,
+  "tags": [],
+  "tool": {
+    "name": "expman",
+    "python": "3.13.9",
+    "version": "1.1.0"
+  },
+  "vm_or_container_id": "vm-win10-01",
+  "vm_snapshot_hash": "UNKNOWN"
+}

@@ -1,0 +1,48 @@
+{
+  "artifacts": [],
+  "attack_configuration": {
+    "checksum": "536a8ae037cf5e06f84cbe7b8dbe250c224f51c10d19dc330a39698151453370",
+    "hash_alg": "sha256",
+    "path": "FILE_PATH"
+  },
+  "created_by": "USER_NAME",
+  "created_utc": "DATE_TIME",
+  "dataset": {
+    "hash": "0bac186cf92067885880ae8068ec468acfbdc5b6048597c58013950df23f930d",
+    "hash_alg": "sha256",
+    "path": "FILE_PATH"
+  },
+  "environment": {
+    "git_commit": null,
+    "git_dirty": null,
+    "machine": "AMD64",
+    "os": "Windows",
+    "os_release": "11",
+    "os_version": "10.0.26200",
+    "pip_freeze": null,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.9"
+  },
+  "experiment_id": "d22cc397-955c-4384-901a-1229faf94961",
+  "host": "ECEN-D1GZKN3",
+  "lifecycle_events": [],
+  "manifest_version": "1.1.0",
+  "network_isolation_status": "air-gapped",
+  "notes": null,
+  "one_click_reset_confirmation": true,
+  "privilege_level": "admin",
+  "random_seed": 12345,
+  "snapshot": {
+    "post_attack": "post-attack",
+    "pre_attack": "clean-state"
+  },
+  "snapshot_metadata": null,
+  "tags": [],
+  "tool": {
+    "name": "expman",
+    "python": "3.13.9",
+    "version": "1.1.0"
+  },
+  "vm_or_container_id": "vm-lab-01",
+  "vm_snapshot_hash": "UNKNOWN"
+}
